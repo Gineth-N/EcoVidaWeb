@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&display=swap');
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --cafe-claro: #917D65;
+    --cafe-oscuro: #80614D;
+    --gris: #EAEAEA;
+    --verde-oscuro: #4C5B32;
+    --verde-claro: #748E40;
+}
+.white{
+    color: white;
+}
+.cafe-oscuro{
+    color: var(--cafe-oscuro);
+}
+.cafe-claro {
+    color: var(--cafe-claro);
+}
+.verde-oscuro{
+    color: var(--verde-oscuro);
+}
+.verde-claro {
+    color: var(--verde-claro);
+}
+.logo-fondo {
+    margin-left: -20px;
+}
+nav {
+    font-family: "Lilita One";
+    background-color: var(--verde-oscuro);
+}
+
+nav:hover, button:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+footer {
+    background-color: var(--verde-claro);
+    font-style: italic;
+}
+/*HOME*/
+.carousel-item {
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.carousel-item-next, .carousel-item-prev {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-item.active,
+.carousel-item-next.carousel-item-start,
+.carousel-item-prev.carousel-item-end {
+    opacity: 1;
+}
+
+/*EQUIPO*/
+.areas {
+    background-color: var(--verde-claro);
+    border: 6px solid var(--verde-oscuro);
+    border-radius: 20px;
+}
+
+/*CONTACTO*/
+.bar-container {
+    background-color: var(--cafe-oscuro);
+    
+    align-items: center;
+}
+
+.button {
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-item{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icon-circle {
+    background-color: var(--verde-oscuro);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*DONACIONES*/
+.alert{
+    background-color: var(--cafe-oscuro);
+    text-align: end;
+}

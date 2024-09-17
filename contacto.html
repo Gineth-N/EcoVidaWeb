@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecovida</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/logo icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- Menú: NavBar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+                aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="img/logofondo.png" width="200rem" class="px-3 d-xl-block d-none">
+            <img src="img/logo.png" class=" d-block d-xl-none" width="180rem">
+            <div class="collapse navbar-collapse" id="navbarBasic">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-xl-2 fs-sm-5 mx-3" aria-current="page"
+                            href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-xl-2 fs-sm-5 mx-3" aria-current="page"
+                            href="proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-xl-2 fs-sm-5 mx-3" aria-current="page"
+                            href="equipo.html">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-xl-2 fs-sm-5 mx-3" aria-current="page"
+                            href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-xl-2 fs-sm-5 mx-3" aria-current="page"
+                            href="donaciones.html">Donaciones</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 fs-4" type="search" aria-label="Search">
+                    <button class="btn btn-outline-success fs-4" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--PORTADA-->
+    <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel"></div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/contacto.png" class="w-100">
+        </div>
+    </div>
+    </div>
+
+    <!--BOTÓN-->
+    <div class="bar-container justify-content-between py-4 px-xxl-5 my-4 d-xl-flex d-none">
+        <p class="lilita-one-regular white fs-2">Visítanos para conocer más</p>
+        <a href="https://www.google.com/maps/place/Centro+de+Gesti%C3%B3n+de+Mercados,+Log%C3%ADstica+y+Tecnolog%C3%ADas+de+la+Informaci%C3%B3n/@4.6392866,-74.0685472,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9a308618d6d5:0xafb4429784208488!8m2!3d4.6392813!4d-74.0659723!16s%2Fg%2F11f3n4yp0y?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+            class="button lilita-one-regular fs-5">Ubicación</a>
+    </div>
+
+    <!--FORMULARIO-->
+    
+    <div class="container">
+        <h1 class="verde-claro pt-5 lilita-one-regular text-center fs-1">¿Quieres ser parte del cambio?</h1>
+        <h3 class="fs-5 text-center lato-regular pb-5">Para  mayor información contáctanos <a href="wa.link/7nhspm" class="primary"> aquí </a></h3>
+        
+        <div class="py-3">
+        <label for="formControlInput" class="form-label lato-regular verde-claro">Nombre completo</label>
+        <input type="email" class="form-control bg-light" id="formControlInput">
+        </div>
+
+        <form class="row g-2 needs-validation" novalidate="">
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltip01" class="form-label verde-claro lato-regular">Número de contacto</label>
+                <input type="text" class="form-control bg-light" id="validationTooltip01">
+            </div>
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltip02" class="form-label verde-claro lato-regular">Correo electrónico</label>
+                <input type="text" class="form-control bg-light" id="validationTooltip02">
+            </div>
+        </form>
+
+        <div>
+            <div class="py-3">
+            <label for="validationTooltip03" class="form-label lato-regular verde-claro"> Proyecto en el que deseas participar</label>
+            <select class="form-select bg-light" aria-label="Default select">
+            
+                <option value="1">Conservación del medio ambiente</option>
+                <option value="2">Educación ecológica</option>
+                <option value="3">Reforestación</option>
+                <option value="4">Huertos urbanos comunitarios</option>
+                <option value="5">Reducir el uso de plásticos</option>
+                <option value="6">Conservación de bosques y selvas tropicales</option>
+            </select>
+            </div>
+        </div>
+            <div class="col-12">
+                <button class="btn btn-success white lilita-one-regular offset-11" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <!--IMAGEN PASTO-->
+    <img src="img/Pasto.png" class="w-100">
+
+    <!--SECCIÓN COMUNICATE-->
+    <section class="contact-container bg-light">
+        <div class="contact-left lilita-one-regular text-center verde-oscuro">
+            <h2 class="fs-1 py-4">Comunícate <br> con nosotros</h2>
+        </div>
+        <div class="contact-right">
+            <div class="contact-item center d-flex">
+                <div class="icon-circle "><i class="bi bi-geo-alt-fill white"></i></div>
+                <a href="https://www.google.com/maps/place/Centro+de+Gesti%C3%B3n+de+Mercados,+Log%C3%ADstica+y+Tecnolog%C3%ADas+de+la+Informaci%C3%B3n/@4.6392866,-74.0685472,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9a308618d6d5:0xafb4429784208488!8m2!3d4.6392813!4d-74.0659723!16s%2Fg%2F11f3n4yp0y?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D">
+                <p class="lato-bold cafe-oscuro py-4 px-3 fs-5">Cl. 25 # 37 08, Bogotá</p></a>
+            </div>
+            <div class="contact-item center d-flex">
+                <div class="icon-circle "><i class="bi bi-telephone-fill white"></i></div>
+                <a href="wa.link/7nhspm"><p class="lato-bold cafe-oscuro py-4 px-3 fs-5">+57 304 4420391</p></a>
+            </div>
+            <div class="contact-item center d-flex">
+                <div class="icon-circle "><i class="bi bi-envelope-at-fill fs-xl-4 fs-5 white"></i></div>
+                <a href="https://outlook.com"><p class="lato-bold cafe-oscuro py-4 px-3 fs-5">organizacionecovida@outlook.com</p></a>
+            </div>
+        </div>
+        <div class="map-container d-lg-block d-none">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.835383407112!2d-74.06911152552484!3d4.662710896594602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9965b13e16ff%3A0xb4216f91b7b42e9e!2sCentro%20de%20Gesti%C3%B3n%20de%20Mercados%2C%20Log%C3%ADstica%20y%20Tecnolog%C3%ADa%20de%20la%20Informaci%C3%B3n!5e0!3m2!1ses-419!2sco!4v1694668001470!5m2!1ses-419!2sco" 
+                class="w-100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="white">
+        <div class="container-fluid d-flex justify-content-between p-5">
+          <img src="img/logo.png" width="180rem" class="d-lg-block d-none">
+          <a href="https://www.whatsapp.com/perfil" target="_blank" class="">
+            <i class="bi bi-whatsapp fs-xl-3 fs-sm-5 text-white d-md-block d-none"></i>
+          </a>
+          <a href="https://www.facebook.com/perfil" target="_blank" class="">
+            <i class="bi bi-facebook fs-xl-3 fs-sm-5 text-white d-md-block d-none"></i>
+          </a>
+          <a href="https://www.x.com/perfil" target="_blank" class="">
+            <i class="bi bi-twitter-x fs-xl-3 fs-sm- text-white d-md-block d-none"></i>
+          </a>
+          <a href="https://www.outlook.com" target="_blank" class="">
+            <i class="bi bi-envelope-at-fill fs-xl-4 fs-5 text-white d-md-block d-none"></i>
+          </a>
+          <p class="text-white fs-xl-4 fs-15 d-flex">Copyright 2024 &copy; Coffee Klatch Colombia - Todos los derechos reservados
+          </p>
+        </div>
+      </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
