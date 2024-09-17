@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecovida</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="shortcut icon" href="img/logo icono.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <!-- Menú: NavBar-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="logo ">
+      <img src="img/logofondo.png" width="200rem" class="logo-fondo px-3 m-0 d-xl-block d-none">
+      <img src="img/logo.png" class=" d-block d-xl-none" width="180rem">
+    </div>
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+        aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarBasic">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white fs-xl-4 fs-sm-5 mx-3" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white fs-xl-4 fs-sm-5 mx-3" aria-current="page" href="proyectos.html">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white fs-xl-4 fs-sm-5 mx-3" aria-current="page" href="equipo.html">Equipo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white fs-xl-4 fs-sm-5 mx-3" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white fs-xl-4 fs-sm-5 mx-3" aria-current="page" href="donaciones.html">Donaciones</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2 fs-4" type="search" aria-label="Search">
+          <button class="btn btn-outline-success fs-4" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CARRUSEL: Carousel with controls- -->
+  <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/carrusel 1.jpg" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carrusel 2.jpg" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carrusel 3.jpg" class="d-block w-100" alt="Slide 3">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselWithControls" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselWithControls" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+  <!-- PROYECTOS: Grid-Card -->
+  <div class="bg-light">
+    <div class="container d-flex">
+      <div class="row">
+        <div class="row g-3 justify-content-center">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center fs-xl-3 fs-4 lilita-one-regular cafe-oscuro">Conservación del medio ambiente </h5>
+                <p class=".lato-regular text-center fs-xl-4 fx-5 lato-regular">Queremos inspirar a adoptar prácticas sostenibles reducir el
+                  impacto
+                  ambiental y proteger nuestros recursos naturales</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center fs-xl-3 fs-4 lilita-one-regular cafe-oscuro">Educación ecológica</h5>
+                <p class=".lato-regular text-center fs-xl-4 fx-5 lato-regular">Queremos informar y capacitar para que nuestros visitantes adopten
+                  prácticas responsables y beneficien al medio ambiente.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-xxl-block d-none">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center fs-xl-3 fs-4  lilita-one-regular cafe-oscuro" >Reforestación</h5>
+                <p class=".lato-regular text-center fs-xl-4 fx-5 lato-regular">Nuestro objetivo es promover y apoyar la plantación de árboles
+                  para
+                  restaurar ecosistemas y combatir el cambio climático.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-success offset-11 fs-lg-5 fs-7"><a href="proyectos.html"
+        class="text-white lilita-one-regular">Más</a>
+    </button>
+  </div>
+  <!-- DONACIONES -->
+  <div class="container">
+    <h1 class="text-center py-4 lilita-one-regular cafe-claro ">¡HAZ CRECER EL FUTURO!</h1>
+    <p class=".lato-regular text-center fs-2 d-xl-block d-none lato-regular">Te invitamos a colaborar con una donación en nuestra página web para
+      ayudar a quienes más lo necesitan. Cada aporte tiene un impacto significativo y
+      nos acerca un paso más a mejorar nuestra naturaleza.</p>
+    <p class="text-center fs-lg-2 fs-4  lato-regular"><a href="donaciones.html" class="verde-claro">¡Haz click en el enlace y transforma el futuro!</a></p>
+  </div>
+  <img src="img/homedonacion1.jpg" class="w-100">
+
+  <div class="proyectoshome">
+    <h2 class="text-lg-end pt-5 me-5 text-center fs-lg-1 fs-3 lilita-one-regular">APORTA TU</h2>
+    <h1 class="text-lg-end me-5 text-center fs-lg-1 fs-2 lilita-one-regular cafe-claro">SEMILLITA</h1>
+    <p class="text-end fs-2 me-5 d-none d-xl-block">Descubre los distintos proyectos y <br> actividades en los que
+      puedes participar <br><a href="donaciones.html" class="fs-4 offset-10 d-xl-block verde-claro">Click aquí</a></p>
+
+
+    <img src="img/homedonacion2.png" class="w-100">
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="white">
+    <div class="container-fluid d-flex justify-content-between p-5">
+      <img src="img/logo.png" width="180rem" class="d-lg-block d-none">
+      <a href="https://www.whatsapp.com/perfil" target="_blank" class="">
+        <i class="bi bi-whatsapp fs-xl-3 fs-sm-5 text-white d-md-block d-none"></i>
+      </a>
+      <a href="https://www.facebook.com/perfil" target="_blank" class="">
+        <i class="bi bi-facebook fs-xl-3 fs-sm-5 text-white d-md-block d-none"></i>
+      </a>
+      <a href="https://www.x.com/perfil" target="_blank" class="">
+        <i class="bi bi-twitter-x fs-xl-3 fs-sm- text-white d-md-block d-none"></i>
+      </a>
+      <a href="https://www.outlook.com" target="_blank" class="">
+        <i class="bi bi-envelope-at-fill fs-xl-4 fs-5 text-white d-md-block d-none"></i>
+      </a>
+      <p class="text-white fs-xl-4 fs-15 d-flex">Copyright 2024 &copy; Coffee Klatch Colombia - Todos los derechos reservados
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
